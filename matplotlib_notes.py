@@ -20,8 +20,8 @@ plt.show()
 
 # controlling line properties
 # use keywords
-x = np.arange(0, 6, 0.1) + np.random.random(60)
-y = np.sin(y) + 
+x = np.arange(0, 6, 0.1) 
+y = np.sin(x) + + np.random.random(60)
 plt.plot(x, y, linewidth=2.0)
 line, = plt.plot(x, y, '-')
 
